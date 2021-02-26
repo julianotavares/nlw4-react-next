@@ -36,7 +36,7 @@
 .countdownContainer > span {
   font-size: 6.25rem;
   margin: 0 0.5rem;
-} 
+}
 
 .countdownButton {
   width: 100%;
@@ -68,15 +68,17 @@
 .countdownButtonActive {
   background: var(--white);
   color: var(--title);
+  border: 0;
 }
 
 .countdownButtonActive:not(:disabled):hover {
   background: var(--red);
   color: var(--white);
 }
+
 .countdownButton {
-  background: var(--white);
-  color: var(--text);
+  background: var(--blue);
+  color: var(--white);
   cursor: not-allowed;
 }
 
