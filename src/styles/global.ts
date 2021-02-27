@@ -1,7 +1,8 @@
 
 :root {
   --white: #fff;
-  --background: #f2f3f5;
+  /* --background: #f2f3f5; */
+  --background: ${props => props.theme.colors}
   --gray-line: #DCDDE0;
   --text: #666666;
   --text-highlight: #B3B9FF;
